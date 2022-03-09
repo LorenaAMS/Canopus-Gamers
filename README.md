@@ -1,0 +1,442 @@
+# Canopus-Gamers.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canopus Gamers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        a:hover{
+            color: chartreuse;
+            
+        }
+
+        #btnSuccess{
+           background-color: #00ad26;
+           height: 56px;
+           font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <p>La casa de juegos</p>
+                </a>
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="">
+                    </a>
+                </div>
+
+                <nav id="navegacion" class="navegacion">
+                    <a href="nosotros.html">us</a>
+                    <a href="anuncios.html">Advertisements</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contact</a>
+                    <a href="registrarme.html">sign up</a>
+                    <a href="iniciar sesion.html">log in</a>
+                </nav>
+                    <form class="d-flex" style="width: 30%; height: 40px;">
+                        <input class="form-control me-2" type="search" placeholder="Busca tu juego aqui" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                      </form>
+                
+            </div>
+            <h1><strong>Canopus</strong> Gamers</h1>
+        </div>
+    </header>
+
+    <section class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Mas Sobre Nosotros</h2>
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" width="40px" alt="">
+                <h3>Nosotros</h3>
+                <p>Nosotros somos una empresa donde te brindamos con mucha más facilidad 
+                    la busqueda y descarga de tus juegos preferidos. Llevamos más de 5 años 
+                    brindando buen contenido para que nuestros usuarios puedan tener una mejor 
+                    experiencia en el mundo de los videojuegos.</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono2.png" width="70px" alt="">
+                <h3>Nuestros usuarios</h3>
+                <p>Nuestros usuarios tendran màs cercania con los videojuegos, 
+                    lo conoceran mucho mejor, de donde viene cada uno, nivel 
+                    de popularidad, en que año se creo etc. El usuario tendra muchas màs
+                    posibilidades de aprender sobre cada videojuego 
+                </p>
+            </div>
+            <div class="icono">
+                <img src="img/icono3.svg" width="30px" alt="">
+                <h3>Medallas</h3>
+                <p>Cada juego mostrara cuantas medallas o reconocimientos tiene el juego
+                    y podra ver en que año fue cada una, que esperas para obtener tus medallas 
+                    y ganar mas experiencia
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <main class="seccion contenedor">
+        <div class="text-center">
+            <h3>Sube aqui tu juego</h3>
+            <input class="btn btn-success" style='height: "60px";' type="file">
+        </div> <br>
+        <h2 class="fw-300 centrar-texto">Opciones</h2>
+        <div class="contenedor-anuncios">
+
+            <div class="anuncio">
+                <img src="img/futbol.jpg" class="futbol" alt="">
+                <div class="contenido.anuncio">
+                    <h3>Futbol</h3>
+                    <p> Juega con tu equipo preferido </p>
+                    <p class="precio">$1,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/jugadores.svg" width="20px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/icono_micro.svg" width="30px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/control.svg" width="30px">
+                            <p>4</p>    
+                        </li>
+                    </ul> 
+                    <a href="fifa.html" class="boton boton-amarillo d-block">Ver Juego</a>
+                    <a href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt" class="boton boton-amarillo d-block">Descargar</a> <br>
+                    <button type="button" id="btnSuccess" class="btn btn-success" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Comentarios
+                      </button>
+                     
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Envianos tu comentario</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo electronico:</label>
+                                <input type="email" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Comentario:</label>
+                                <textarea class="form-control" rol="10px" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+                
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/zoombies.jpg"class="zoombies">
+                <div class="contenido.anuncio">
+                    <h3>Resident evil 3</h3>
+                    <p> Si alcanzaras a matar a los zoombies</p>
+                    <p class="precio">$1,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/jugadores.svg" width="20px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/icono_micro.svg" width="30px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/control.svg" width="30px">
+                            <p>4</p>    
+                        </li>
+                    </ul> 
+                    <a href="resident-evil.html" class="boton boton-amarillo d-block">Ver Juego</a>
+                    <a href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt" class="boton boton-amarillo d-block">Descargar</a> <br>
+
+                    <button type="button" id="btnSuccess" class="btn btn-success" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Comentarios
+                      </button>
+                     
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Envianos tu comentario</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo electronico:</label>
+                                <input type="email" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Comentario:</label>
+                                <textarea class="form-control" rol="10px" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/god_of_war.jpg" class="god_of_war" alt="">
+                <div class="contenido.anuncio">
+                    <h3>God of war</h3>
+                    <p>Una lucha hasta el final</p>
+                    <p class="precio">$1,000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/jugadores.svg" width="20px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/icono_micro.svg" width="30px">
+                            <p>3</p>    
+                        </li>
+                        <li>
+                            <img src="img/control.svg" width="30px">
+                            <p>4</p>    
+                        </li>
+                    </ul> 
+                    <a href="wod-of-war.html" class="boton boton-amarillo d-block">Ver Juego</a>
+                    <a href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt" class="boton boton-amarillo d-block">Descargar</a> <br>
+
+                    <button type="button" id="btnSuccess" class="btn btn-success" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Comentarios
+                      </button>
+                     
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Envianos tu comentario</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo electronico:</label>
+                                <input type="email" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Comentario:</label>
+                                <textarea class="form-control" rol="10px" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="ver-todas">
+            <a href="anuncios.html" class="boton boton-verde">Ver Todas</a>
+        </div>
+    </main>
+
+    <section class="imagen-contacto">
+        <div class="contenedor contenido-contacto">
+            <h2>Contactanos</h2>
+            <p>Danos tu oponion sobre tu experiencia</p>
+            <a href="contacto.html" class="boton boton-amarillo">Contactanos</a>
+        </div>  
+    </section> <br>
+    <section class="video">
+        <iframe width="580" height="315" src="https://www.youtube.com/embed/nMZOz09zKnY?start=2"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe> 
+
+      </section>
+
+    <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
+    <div class="seccion-inferior contenedor seccion">
+
+        <section class="blog">
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/halo.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="halo.html">
+                        <h4>Halo</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Aumenta tu experiencia</p>
+                </div>  
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/peleas.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="peleas.html">
+                        <h4>Peleas</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Aumenta tu nivel de pelea y agilidad</p>
+                </div>   
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/infantil.png" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="mario.html">
+                        <h4>Mario 2</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Una nueva experiencia para aventurarse</p>
+                </div>   
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/guerra.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Rescate</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Rescata y sube de nivel en cada jugada</p>
+                </div>  
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/infantil3.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Robots</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Atacaran de nuevo la ciudad</p>
+                </div>  
+            </article>
+
+        </section>
+        <section class="blog">
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/call off duty.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="call duty 2.html">
+                        <h4>Call off duty 2</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Un mundo para vivir una experiencia casi real</p>
+                </div>  
+            </article>
+                 
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/call off duty.jpg" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="call duty 2.html">
+                        <h4>Call off duty</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Incrementa tu nivel</p>
+                </div>        
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/mario.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="mario.html">
+                        <h4>Mario</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Un juego que te hara pasar por una aventura</p>
+                </div>  
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/infantil2.png" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="revolutions.html">
+                        <h4>Chase farm revolution</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Una aventura para los màs pequeños</p>
+                </div>   
+            </article>
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/san andreas.gif" alt="">
+                </div>
+                <div class="texto-entrada">
+                    <a href="san andreas.html">
+                        <h4>San andreas</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span>por: <span>Admin</span></p>
+                    <p>Diferentes opciones para que tenga con que jugar</p>
+                </div>        
+            </article>
+        </section>
+
+    </div>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los derechos reservados 2021 &copy;</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</form>
+</body>
+</html>
